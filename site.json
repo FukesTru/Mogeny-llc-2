@@ -35,28 +35,31 @@
   ],
   "booking_system_current": "",
   "brand": {
-    "colour_main": "#14213D",
-    "colour_accent": "#B8875A",
+    "colour_main": "#13203A",
+    "colour_accent": "#F5D547",
     "colours_other": [
-      "#F7F3EC",
-      "#3E5C58",
-      "#8A6440"
+      "#FBEAE6",
+      "#F3C6BE",
+      "#FFF6D2",
+      "#127548",
+      "#B23C0A",
+      "#EDECEA"
     ],
-    "font": "Source Serif 4 (headings) + Inter (body)",
-    "notes": "No logo, colours or fonts supplied (onboarding form says 'I need one designed'). Agency defaults used: navy #14213D main, brass #B8875A accent (decoration and text on navy only; fails contrast as text on white), cream #F7F3EC tinted bands, deep green #3E5C58 secondary, darker brass #8A6440 for small text on light backgrounds. Typographic wordmark and simple SVG 'M' mark built in the brand colours as a stand-in until a real logo is designed."
+    "font": "Montserrat (headings, menu, buttons) + Inter (body)",
+    "notes": "No logo, colours or fonts supplied (onboarding form says 'I need one designed'). This copy of the site is restyled after lemondropaccounting.com at the operator's request: navy #13203A for type, the Contact us button and dark bands; lemon #F5D547 as a fill only (buttons on navy, icon discs, highlights; it fails contrast as text on white); blush #FBEAE6 tinted bands and #F3C6BE behind the hero photo; pale lemon #FFF6D2 bands; green #127548 for call buttons; zest #B23C0A for small accent labels (6.0:1 on white); light grey #EDECEA footer. Stand-in mark: a lemon disc with a navy 'M', until a real logo is designed."
   },
   "images": [
     {
       "file": "favicon.png",
-      "note": "512x512 site icon, brass 'M' mark on a navy rounded square. Built for the site, not a client logo"
+      "note": "512x512 site icon, navy 'M' on a lemon yellow disc. Built for the site, not a client logo"
     },
     {
       "file": "apple-touch-icon.png",
-      "note": "180x180 version of the same mark for phone home screens"
+      "note": "180x180 version of the same mark on white, for phone home screens"
     },
     {
       "file": "og-image.png",
-      "note": "1200x630 social sharing image, navy with the Mogeny wordmark and the services line"
+      "note": "1200x630 social sharing image: the blush desk photo with the Mogeny LLC mark, the home headline and the services line"
     },
     {
       "file": "images/chicago-river-downtown-1200.webp",
@@ -91,8 +94,8 @@
       "note": "Home office desk by a window with a laptop spreadsheet, notebook and phone. Remote clients page hero. 640px version home-office-laptop-640.webp. AI-generated with Higgsfield as a stand-in. Not a photo of the client, their office or their work. Replace with the client's own photos when they arrive."
     },
     {
-      "file": "images/hero-chicago-skyline-1920.webp",
-      "note": "Chicago skyline at dusk across Lake Michigan, behind the home page hero under a navy shade. Also hero-chicago-skyline-1280.webp and a portrait phone crop hero-chicago-skyline-phone.webp. AI-generated with Higgsfield as a stand-in. Not a photo of the client, their office or their work."
+      "file": "images/hero-blush-desk-2000.webp",
+      "note": "Overhead view of printed monthly statements with navy bar charts, a brass pen, a calculator, reading glasses and coffee in a lemon cup on a blush pink desk, left half empty for the headline. Home page hero. Also hero-blush-desk-1280.webp and a 4:3 phone crop of the desk, hero-blush-desk-phone.webp. AI-generated with Higgsfield as a stand-in. Not a photo of the client, their office or their work."
     }
   ],
   "assets_link": "https://drive.google.com/drive/folders/1RliDvX_gK5aIbtIymSepVK5lTq-GivuN",
@@ -107,5 +110,5 @@
   "vercel_project": "",
   "preview_url": "",
   "domain": "www.mogeny.com",
-  "fonts": "Self-hosted in public/fonts with their OFL licences: Inter (variable, weights 400 to 600) and Mogeny Serif, which is Source Serif 4 trimmed to weights 500 to 600 with optical size fixed at 48 and renamed as the licence asks for modified copies. Latin subset only."
+  "fonts": "Self-hosted in public/fonts with their OFL licences: Montserrat (variable, weights 100 to 900, unmodified) and Inter (variable, weights 400 to 600). Latin subset only."
 }

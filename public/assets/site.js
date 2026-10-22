@@ -116,6 +116,11 @@
     window.addEventListener('load', function () { setTimeout(goToForm, 50); });
   }
 
+  // Header: a hairline and a soft shadow once the page has scrolled
+  function onScroll() { root.classList.toggle('scrolled', window.scrollY > 8); }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
   // Scroll motion: sections settle into place as they come into view
   var items = document.querySelectorAll('[data-reveal]');
   if (!reduceMotion && 'IntersectionObserver' in window) {

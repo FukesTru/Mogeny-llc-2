@@ -1,6 +1,8 @@
 # Mogeny LLC website
 
 The website for Mogeny LLC (Chicago, IL), built from the Local Cascade client site template.
+This repo is a second design of that site, copied from FukesTru/Mogeny-LLC and restyled after
+lemondropaccounting.com (bright blush and lemon look, bold Montserrat headings). The words and pages are the same.
 Business details are in `site.json`. What the client still has to send or confirm is in
 `VERIFY.md`. The site itself is the plain HTML in `public/`.
 
